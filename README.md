@@ -1,27 +1,15 @@
-# CakePHP Application Skeleton
+# CakePHP Toronto Places
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+A basic website to display places in toronto with ability of REST API.
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+## Demo
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+1. Demo is hosted on one of my personal servers. https://synaptop-gkhandare.c9users.io/visittoronto
+2. username: test4@test.com, password: abcd
+3. To access the API, you can run the following URL in your browser
+4. For All Users: http://synaptop-gkhandare.c9users.io/visittoronto/api/users.json
+5. To view individual users: http://synaptop-gkhandare.c9users.io/visittoronto/api/users/1.json
+6. For All Places: http://synaptop-gkhandare.c9users.io/visittoronto/api/places.json
+7. To view Individual places: http://synaptop-gkhandare.c9users.io/visittoronto/api/places/1.json
+8. While accessing API, if it ask for basic authentication: username: test4@test.com, password: 460f0e05198c57e36a4baee4b38055238e793df1
 
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
-# synaptop-places
