@@ -41,7 +41,7 @@ class UsersController extends AppController
     }
     
     /**
-     * 
+     * Logout method
      * 
      */
     public function logout(){

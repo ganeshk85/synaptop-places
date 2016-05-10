@@ -12,4 +12,7 @@ A basic website to display places in toronto with ability of REST API.
 6. For All Places: http://synaptop-gkhandare.c9users.io/visittoronto/api/places.json
 7. To view Individual places: http://synaptop-gkhandare.c9users.io/visittoronto/api/places/1.json
 8. While accessing API, if it ask for basic authentication: username: test4@test.com, password: 460f0e05198c57e36a4baee4b38055238e793df1
+9. Login using API can be possible using the below URL
+https://synaptop-gkhandare.c9users.io/visittoronto/api/users/login?username=test4@test.com&password=460f0e05198c57e36a4baee4b38055238e793df1
+This returns the id of the user and a authorization token, which can be used for further authentication(not implemented)
 
